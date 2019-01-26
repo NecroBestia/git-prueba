@@ -1,0 +1,104 @@
+*{/*seleciona todos los elementos que hay en el html*/
+	margin: 0;
+	padding: 0;
+
+}
+
+h1{
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;/*el grosor que va a tener ña letra*/
+	clear:both;
+}
+h2{
+	font-weight: bold;
+	font-size: 14px;/*tamaño de la letra*/
+	font-family: sans-serif;/*tipo de letra que va a tener ese texo */
+	padding: 4px;
+}
+
+header,section,footer,aside,nav,article,hgroup{ /*seleccion multiple de cosas*/
+	display: block;
+}
+
+body{
+	text-align: center;
+}
+
+div{
+	width: 960px;
+	border: 1px solid black;
+	margin: 15px auto;
+	background:  #EBEBEB;
+}
+.header{
+	background:  #EBEBEB;
+	padding: 20px;
+}
+
+.header h1 {
+	text-align: left;
+}
+
+.menu {
+	background:  #EBEBEB;
+	padding: 5px 15px;
+	text-align: left;/*la alinacion del texto*/
+}
+/*shape-outside: circle(150px ar 0px);*/
+.menu li {
+	list-style: none; /*son los estios de las listas*/
+	padding: 5px;
+	font: bold 14px verdama;
+	display: inline-block;/*define la pocision de los objetos*/
+	border-right: 2px solid black;
+}
+.section{
+	margin: 20px;
+	width: 60%;
+	float: left;
+
+}
+article{
+	background:  #D6D7D0;
+	border:1px solid #999;/*border son Los bordes que tienes, solid es para que se solido */
+	padding: 20px; /*pading es como un espacio de saparacion del contenido*/ 
+	margin-bottom:15px ;/*es el margen que tiene puede ser de abajo,arriba, dereha, izquierda*/
+	margin-top: 15px;
+}
+
+time{
+	color: black;
+ 	padding: 5px;
+ 	float:left;
+}
+.time{
+	color: black;
+ 	padding: 5px;
+ 	float:left;
+ 	margin-top: 14.9px;
+
+}
+article footer{
+
+	text-align: right;
+	margin-top:20px;
+}
+
+.aside{
+ width: 30%;
+ float: left;/*hace flotar un elemento hacia una dirreccion que le demos*/
+ margin: 20px 0;
+}
+.aside blockquote{
+	padding:20px;
+	background: #EBEBEB<;
+	margin-bottom: 20px;
+}
+
+.pie{
+	clear:both;/*que elementos no pueden flotar este caso de dercha o izquierda*/
+	padding: 20px;
+	background: #2d3436;
+	color:#ffffff;
+}
